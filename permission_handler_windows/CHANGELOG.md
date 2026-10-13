@@ -1,3 +1,7 @@
+## Unreleased (Windows build compatibility)
+
+* Remove the legacy `/await` compiler option and use the existing C++20 standard coroutine support on Visual Studio 2026 / MSVC 14.51.
+
 ## 0.2.1
 
 * Updates the dependency on `permission_handler_platform_interface` to version 4.1.0 (SiriKit support is only available for iOS and macOS).
